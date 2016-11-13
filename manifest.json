@@ -1,0 +1,20 @@
+{
+  "name": "PageSwapper",
+  "description": "Randomly changes webpage",
+  "version": "1.0",
+  "permissions": [
+	"activeTab"
+  ],
+  "web_accessible_resources": [
+	"content_script.js"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Randomly change page"
+  },
+  "manifest_version": 2
+}
+	
